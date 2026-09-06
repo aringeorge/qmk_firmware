@@ -113,4 +113,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] =
         LALT(KC_7),     LALT(KC_8),     LALT(KC_9),     LALT(KC_0),     LALT(KC_MINS),  LALT(KC_EQL),   KC_NO,          KC_NO,           TO(_BASE),     TO(_BASE),  KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO
     )
 };
-
