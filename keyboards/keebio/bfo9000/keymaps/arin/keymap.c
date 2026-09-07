@@ -6,13 +6,14 @@
 
 uint16_t last_pressed = 0;
 
-#define _QWERTY     0
-#define _COLEMAK    1
-#define _DVORAK     2
-#define _PROG       3
-#define _GAME       4
-
-
+enum custom_layers
+{
+    _QWERTY     = 0,
+    _COLEMAK    = 1,
+    _DVORAK     = 2,
+    _PROG       = 3,
+    _GAME       = 4
+};
 
 // Handler executed on the slave when the master sends data
 void slave_keycode_rpc_handler(uint8_t initiator2target_buffer_size, const void* initiator2target_buffer, uint8_t target2initiator_buffer_size, void* target2initiator_buffer)
