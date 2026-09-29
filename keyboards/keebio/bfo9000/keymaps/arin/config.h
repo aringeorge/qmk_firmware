@@ -16,3 +16,6 @@
 #define OLED_TIMEOUT            30000
 
 #define OLED_UPDATE_INTERVAL    100
+
+#define RPC_M2S_BUFFER_SIZE     128
+#define RPC_S2M_BUFFER_SIZE     128

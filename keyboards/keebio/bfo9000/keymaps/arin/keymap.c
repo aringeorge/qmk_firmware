@@ -36,6 +36,8 @@ void slave_keycode_rpc_handler(uint8_t initiator2target_buffer_size, const void*
 
 void keyboard_post_init_user(void)
 {
+    debug_enable = true;
+    debug_matrix = true;
     if (is_keyboard_master())
     {
         return;
